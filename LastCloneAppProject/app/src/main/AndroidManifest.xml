@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LastCloneAppProject"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".login.FindPwActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.NicknameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.JoinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.CheckJoinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".calls.CallsCallOffSplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".messages.MessageChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".calls.CallsSplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".calls.CallsOnCallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".calls.CallsMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".messages.MessageMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.SettingPpolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".calendar.CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.SettingAlterSubscribeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.SettingNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".photos.PhotosViewDetail2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".photos.PhotosView2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".photos.PhotosViewDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".photos.PhotosViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.SettingSubscribeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.SettingLanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.SettingEditIdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".photos.PhotosGalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".photos.PhotosMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
